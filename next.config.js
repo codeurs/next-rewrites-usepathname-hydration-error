@@ -3,8 +3,8 @@ const nextConfig = {
     async rewrites() {
         return [
             {
-                source: '/nl/bug',
-                destination: '/en/error'
+                source: '/bug',
+                destination: '/error'
             }
         ]
     }
